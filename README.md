@@ -35,7 +35,10 @@ You can download the latest release from <https://github.com/Un4gi/mBot/releases
 Installing with Go is simple:
 
 ```bash
-go install github.com/un4gi/mBot@latest
+go get github.com/un4gi/mBot
+
+# EDIT: This one doesn't seem to work at the moment... use the one above.
+# go install github.com/un4gi/mBot@latest
 ```
 
 ### Option 3: Building From Source
