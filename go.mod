@@ -1,4 +1,4 @@
-module github.com/un4gi/mBot v2.1.2
+module github.com/un4gi/mBot
 
 go 1.17
 
@@ -13,3 +13,5 @@ require (
 	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect
 	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68 // indirect
 )
+
+replace mBot => github.com/un4gi/mBot v1.0.0
