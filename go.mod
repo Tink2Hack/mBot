@@ -1,4 +1,4 @@
-module github.com/un4gi/mBot/v2.1.2
+module github.com/un4gi/mBot v2.1.2
 
 go 1.17
 
