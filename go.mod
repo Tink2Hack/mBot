@@ -14,4 +14,4 @@ require (
 	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68 // indirect
 )
 
-replace mBot => github.com/un4gi/mBot v1.0.0
+replace mBot => github.com/un4gi/mBot v2.1.1
