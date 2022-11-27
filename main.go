@@ -1,10 +1,7 @@
 package main
 
 import (
-	"flag"
-	"fmt"
 	"log"
-	"os"
 	"time"
 
 	"github.com/un4gi/mBot/config"
@@ -15,19 +12,7 @@ import (
 )
 
 func main() {
-	token := flag.String("t", "", "Authorization: Bearer token")
-	delay := flag.Uint("d", 60, "Time (in seconds) between requests")
 
-	flag.Parse()
-
-	if len(*token) == 0 {
-		fmt.Printf(env.DebugColor, "You need to supply an Authorization: Bearer token.")
-		os.Exit(0)
-	} else {
-		requests.Token = *token
-	}
-
-	config.Delay = *delay
 	targets.CheckTargets(requests.Urls[0])
 	mission.CheckClaimed()
 	for {
@@ -40,7 +25,7 @@ func main() {
 			}
 		}
 
-		secs := time.Duration(*delay) * time.Second
+		secs := time.Duration(config.Delay) * time.Second
 		time.Sleep(secs)
 	}
 }

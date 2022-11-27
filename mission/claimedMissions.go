@@ -78,7 +78,7 @@ func CheckWallet(url string) bool {
 		}
 
 		if len(string(bodyBytes)) > 3 {
-			if wallet.ClaimedAmount < 200 { // Check to see if there is room in wallet
+			if wallet.ClaimedAmount < 75 { // Check to see if there is room in wallet
 				isRoom = true
 			}
 		} else {

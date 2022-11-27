@@ -26,22 +26,7 @@ If you want to get the most use out of mBot, you should follow the steps below t
 
 ## Installation
 
-### Option 1: Download the Packaged Binary
-
-You can download the latest release from <https://github.com/Un4gi/mBot/releases> (This is by far the quickest option if you don't want to deal with installing Go).
-
-### Option 2: Install Using Go
-
-Installing with Go is simple:
-
-```bash
-go get github.com/un4gi/mBot
-
-# EDIT: This one doesn't seem to work at the moment... use the one above.
-# go install github.com/un4gi/mBot@latest
-```
-
-### Option 3: Building From Source
+### Building From Source
 
 If you prefer, you can build mBot straight from the source directory:
 
@@ -53,22 +38,13 @@ go build .
 
 ## Usage
 
+Usage has been streamlined and no longer needs arguments passed. As long as you have everything configured properly, you can now simply execute the binary from the command line.
+
 Example:
 
 ```bash
-mBot -t auth_token_here -d 30
+mBot
 ```
-
-For help, use the `-h` flag:
-
-```bash
-mBot -h
-```
-
-| Flag | Description | Example |
-|------|-------------|---------|
-| `-d` | Specifies a delay between polls (to please Synack) | `mBot -d 30` |
-| `-t` | Passes your Authorization: Bearer token to the bot | `mBot -t <auth_token_here>` |
 
 ## Mission Templates
 
