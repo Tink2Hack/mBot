@@ -11,11 +11,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/un4gi/mBot/auth"
-	"github.com/un4gi/mBot/config"
-	"github.com/un4gi/mBot/data"
-	"github.com/un4gi/mBot/env"
-	"github.com/un4gi/mBot/requests"
+	"github.com/Tink2Hack/mBot/auth"
+	"github.com/Tink2Hack/mBot/config"
+	"github.com/Tink2Hack/mBot/data"
+	"github.com/Tink2Hack/mBot/env"
+	"github.com/Tink2Hack/mBot/requests"
 )
 
 func CheckClaimed() {
