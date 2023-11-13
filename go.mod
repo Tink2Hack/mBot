@@ -1,4 +1,4 @@
-module github.com/Tink2Hack/mBot/mBot
+module github.com/Tink2Hack/mBot
 
 go 1.17
 
