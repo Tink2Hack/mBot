@@ -1,4 +1,4 @@
-module github.com/un4gi/mBot
+module github.com/Tink2Hack/mBot/mBot
 
 go 1.17
 
