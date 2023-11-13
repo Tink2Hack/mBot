@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/un4gi/mBot/config"
-	"github.com/un4gi/mBot/env"
-	"github.com/un4gi/mBot/requests"
+	"github.com/Tink2Hack/mBot/config"
+	"github.com/Tink2Hack/mBot/env"
+	"github.com/Tink2Hack/mBot/requests"
 
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
