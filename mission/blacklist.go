@@ -4,8 +4,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/un4gi/mBot/config"
-	"github.com/un4gi/mBot/env"
+	"github.com/Tink2Hack/mBot/config"
+	"github.com/Tink2Hack/mBot/env"
 )
 
 var blacklist []string
