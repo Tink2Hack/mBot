@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/un4gi/mBot/data"
-	"github.com/un4gi/mBot/env"
+	"github.com/Tink2Hack/mBot/data"
+	"github.com/Tink2Hack/mBot/env"
 )
 
 var Token = ""
