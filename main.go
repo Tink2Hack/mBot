@@ -4,11 +4,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/un4gi/mBot/config"
-	"github.com/un4gi/mBot/env"
-	"github.com/un4gi/mBot/mission"
-	"github.com/un4gi/mBot/requests"
-	"github.com/un4gi/mBot/targets"
+	"github.com/Tink2Hack/mBot/config"
+	"github.com/Tink2Hack/mBot/env"
+	"github.com/Tink2Hack/mBot/mission"
+	"github.com/Tink2Hack/mBot/requests"
+	"github.com/Tink2Hack/mBot/targets"
 )
 
 func main() {
